@@ -4,7 +4,7 @@
 # abort on errors
 set -e
 
-env PUBLIC_URL=https://ernestoper.github.io/testedeploy serve -s build
+env PUBLIC_URL=https://ernestoper.github.io/testedeploy npm run build
 
 cd build
 
@@ -16,4 +16,4 @@ git commit -m 'deploy'
 # git push -f git@github.com:{USERNAME}/{USERNAME}.github.io.git main
 
 # deploying to https://{USERNAME}.github.io/{REPO}
-git push -f https://github.com/ernestoper/testesiteedson.git main:gh-pages
+git push -f https://github.com/ernestoper/testedeploy.git main:gh-pages
