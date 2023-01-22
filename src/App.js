@@ -1,10 +1,19 @@
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Home from "./containers/pages/Home";
 
 
 function App() {
   return (
-    <div className="text-3xl">
-      Hello
-    </div>
+
+        <Router>
+          <Routes>
+            {/* Error */}
+            {/* s */}
+            <Route path="/" element={<Home/>}/>
+          </Routes>
+        </Router>
+
+
   );
 }
 
