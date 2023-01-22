@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "https://ernestoper.github.io/testedeploy/static/css/main.6b449fc7.css",
+    "main.js": "https://ernestoper.github.io/testedeploy/static/js/main.55518a0c.js",
+    "index.html": "https://ernestoper.github.io/testedeploy/index.html",
+    "main.6b449fc7.css.map": "https://ernestoper.github.io/testedeploy/static/css/main.6b449fc7.css.map",
+    "main.55518a0c.js.map": "https://ernestoper.github.io/testedeploy/static/js/main.55518a0c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6b449fc7.css",
+    "static/js/main.55518a0c.js"
+  ]
+}
